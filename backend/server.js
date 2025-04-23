@@ -3,7 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
 import restaurantsRoute from './routes/restaurants.js';
-import menuItemsRoute from './routes/menuitems.js';
+import menuItemsRoute from './routes/menuItems.route.js';
 import ordersRoute from './routes/orders.js';
 
 dotenv.config();

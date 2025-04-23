@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import Order from '../models/Order.js';
-import MenuItem from '../models/MenuItem.js';
+import MenuItem from '../models/menuitem.model.js';
 import Restaurant from '../models/Restaurant.js';
 
 const router = express.Router();
